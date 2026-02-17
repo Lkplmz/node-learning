@@ -1,0 +1,32 @@
+{
+  "name": "learning",
+  "version": "1.0.0",
+  "description": "My first node app/web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lkplmz/node-learning.git"
+  },
+  "keywords": [
+    "node",
+    "learning"
+  ],
+  "author": "Luca Palenzuela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lkplmz/node-learning/issues"
+  },
+  "homepage": "https://github.com/Lkplmz/node-learning#readme",
+  "dependencies": {
+    "picocolors": "1.1.1"
+  },
+  "devDependencies": {
+    "standard": "17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
