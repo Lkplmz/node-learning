@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-//Gather data (MongnoDB)
+//Gather data (MongoDB)
 const products = [
   { id: 1, nombre: "i3-8100", precio: 100 },
   { id: 2, nombre: "i7-9400K", precio: 200 },
